@@ -1,6 +1,6 @@
 /* Style for the page title */
 header {
-    background-color: #007bff;
+    background-color: #ff7300a4;
     color: #fff;
 }
 
@@ -28,4 +28,36 @@ header {
 .card-text {
     font-size: 0.9rem;
     color: #333;
+}
+
+/* Style for the image container to position buttons */
+.image-container {
+    position: relative;
+}
+
+.overlay-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+/* Icon button styles */
+.icon-button {
+    background-color: rgba(255, 255, 255, 0.758);
+    border: none;
+    padding: 3px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.icon-button img {
+    width: 15px;
+    height: 15px;
+}
+
+.icon-button:hover {
+    background-color: rgba(248, 109, 10, 0.8);
 }
